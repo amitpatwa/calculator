@@ -1,0 +1,23 @@
+#include<stdio.h>
+void main()
+{
+int a,b,c,d;
+printf("Enter the two numbers");
+scanf("%d%d",&a,&b);
+
+printf("1: for addition of two numbers\n 2: for subtraction of two numbers\n");
+scanf("%d"&c);
+
+switch(c)
+{
+case 1: d=a+b;
+printf("Sum=%d",d);
+break;
+
+case 2: d=a-b;
+printf("Result=%d",d);
+break;
+
+default: printf("INVALID INPUT");
+}
+}//end of main
